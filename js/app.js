@@ -1,1 +1,1 @@
-alert('Hello from app.js')
+const phrases = ['Fantasia', 'Home Alone', 'The Shining', 'Amadeus', 'Immortal Beloved'];
