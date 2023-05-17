@@ -1,6 +1,6 @@
 const phrases = ['Fantasia', 'Home Alone', 'The Shining', 'Amadeus', 'Immortal Beloved']
 
-const querty = document.getElementById('querty');
+const querty = document.getElementById('qwerty');
 
 const phrase = document.getElementById('phrase');
 
