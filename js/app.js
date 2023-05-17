@@ -6,10 +6,8 @@ const phrase = document.getElementById('phrase');
 
 const missed = 0;
 
-const random = 6;
-
 const getRandomPhraseAsArray = arr => {
-    Math.floor( Math.random() * 6 );
+    const Math.floor( Math.random() * 6 );
     countWords: function(){
         const wordArray = this.string.split('  ');
         return wordArray.length;
