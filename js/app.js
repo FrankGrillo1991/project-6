@@ -1,6 +1,6 @@
 const phrases = ['Fantasia', 'Home Alone', 'The Shining', 'Amadeus', 'Immortal Beloved']
 
-const getRandomPhraseAsArray = arr => {
+const getRandomPhraseAsArray = arr => Math.floor( Math.random() * 6) {
 
 }
 
