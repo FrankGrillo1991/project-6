@@ -1,5 +1,9 @@
 const phrases = ['Fantasia', 'Home Alone', 'The Shining', 'Amadeus', 'Immortal Beloved']
 
+const querty = document.getElementById('querty');
+
+const phrase = document.getElementById('phrase');
+
 const getRandomPhraseAsArray = arr => Math.floor( Math.random() * 6) {
 
 }
