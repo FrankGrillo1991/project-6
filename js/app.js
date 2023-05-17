@@ -8,8 +8,9 @@ const missed = 0;
 
 const getRandomPhraseAsArray = arr => {
     Math.floor( Math.random() * 6 );
-    getRandomPhraseAsArray(phrases);
 }
+
+getRandomPhraseAsArray(phrases);
 
 const addPhraseToDisplay = arr => {
 
