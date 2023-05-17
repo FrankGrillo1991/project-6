@@ -8,7 +8,13 @@ const missed = 0;
 
 const getRandomPhraseAsArray = arr => {
     Math.floor( Math.random() * 6 );
+    countWords: function(){
+        const wordArray = this.string.split('  ');
+        return wordArray.length;
+    }
 }
+
+console.log(myString.string.split('  '));
 
 getRandomPhraseAsArray(phrases);
 
