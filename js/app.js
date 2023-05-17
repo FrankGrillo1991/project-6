@@ -6,8 +6,8 @@ const phrase = document.getElementById('phrase');
 
 const missed = 0;
 
-const getRandomPhraseAsArray = arr => Math.floor( Math.random() * 6) {
-
+const getRandomPhraseAsArray = arr => {
+    Math.floor( Math.random() * 6 );
 }
 
 const addPhraseToDisplay = arr => {
