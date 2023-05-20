@@ -9,7 +9,7 @@ const missed = 0;
 const getRandomPhraseAsArray = arr => {
     const random = Math.floor( Math.random() * 6 );
     const phrase = arr[randomIndex];
-    countWords: function ) {
+    countWords = function {
         const wordArray = phrase.split('');
         return wordArray.length;
     }
