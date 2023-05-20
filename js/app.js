@@ -15,7 +15,7 @@ const getRandomPhraseAsArray = arr => {
     }
 }
 
-console.log(randomIndex.split(''));
+console.log(phrases.split(''));
 
 getRandomPhraseAsArray(phrases);
 
