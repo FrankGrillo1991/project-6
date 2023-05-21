@@ -35,7 +35,6 @@ btn__reset.addEventListener('click', () => {
         evt.target.style.visibility = "hidden";
 });
 
-ul.addEventListener("click", hide, false);
 
 qwerty.addEventListener('click', e => {
 
