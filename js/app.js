@@ -32,7 +32,7 @@ const checkWin = () => {
 }
 
 startButton.addEventListener('click', () => {
-
+    EventTarget.style.visibility = "hidden";
 });
 
 qwerty.addEventListener('click', e => {
