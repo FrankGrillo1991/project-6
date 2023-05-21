@@ -41,7 +41,7 @@ startButton.addEventListener('click', () => {
     ul.appendChild(li2);
 }
 
-    function hide(evt) {
+    (evt) => {
         evt.target.style.visibility = "hidden";
     }
 });
