@@ -31,7 +31,7 @@ const checkWin = () => {
 
 }
 
-startButton.addEventListener('click', () => {
+btn__reset.addEventListener('click', () => {
     const ul = document.createElement("ul");
     document.body.appendChild(ul);
 
