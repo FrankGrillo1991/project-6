@@ -31,8 +31,8 @@ const checkWin = () => {
 
 }
 
-btn__reset.addEventListener('click', () => {
-        evt.target.style.visibility = "hidden";
+startButton.addEventListener('click', () => {
+    
 });
 
 
