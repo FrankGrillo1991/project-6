@@ -28,6 +28,10 @@ const addPhraseToDisplay = arr => {
     }
 }
 
+const randomPhrase =
+getRandomPhraseAsArray(phrases)
+addPhraseToDisplay(randomPhrase)
+
 const checkLetter = button => {
 
 }
