@@ -4,15 +4,13 @@ const qwerty = document.getElementById('qwerty');
 
 const phrase = document.getElementById('phrase');
 
-const missed = 0;
+let missed = 0;
 
 const getRandomPhraseAsArray = arr => {
     const random = Math.floor( Math.random() * 6 );
-    const phrase = arr[randomIndex];
-    countWords : function {
-        const wordArray = phrase.split('');
-        return wordArray.length;
-    }
+    const phrase = arr[random];
+    const wordArray = phrase.split('');
+    return wordArray.length;
 }
 
 console.log(getRandomPhraseAsArray(phrases))
