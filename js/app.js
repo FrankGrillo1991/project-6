@@ -24,9 +24,9 @@ const addPhraseToDisplay = arr => {
         list.textContent = character;
         document.querySelector('#phrase ul').appendChild(list);
         if (character === " " ) {
-            const text = document.querySelector(" ").textContent;
+            const text = div.classList.add(" ").textContent;
         } else {
-            const text = document.querySelector('letter').textContent;
+            const text = div.classList.add('letter').textContent;
         }
         console.log(list);
     }
