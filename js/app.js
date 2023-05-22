@@ -19,7 +19,12 @@ getRandomPhraseAsArray(phrases);
 
 const addPhraseToDisplay = arr => {
     for (let i = 0; i < arr.length; i++) {
+        var list = arr[i];
 
+        list = document.createElement('li');
+        document.getElementByClass('section').appendChild(list);
+
+        console.log(list);
     }
 }
 
