@@ -19,10 +19,10 @@ getRandomPhraseAsArray(phrases);
 
 const addPhraseToDisplay = arr => {
     for (let i = 0; i < arr.length; i++) {
-        var list = arr[i];
+        const character = arr[i];
 
-        list = document.createElement('li');
-        document.getElementByClass('section').appendChild(list);
+        const list = document.createElement('li');
+        document.getElementByClass('#phrase ul').appendChild(list);
 
         console.log(list);
     }
@@ -36,7 +36,7 @@ const checkWin = () => {
 
 }
 
-startButton.addEventListener('click', () => {
+//startButton.addEventListener('click', () => {
     
 });
 
