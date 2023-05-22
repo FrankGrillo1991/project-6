@@ -23,10 +23,10 @@ const addPhraseToDisplay = arr => {
         const list = document.createElement('li');
         list.textContent = character;
         document.querySelector('#phrase ul').appendChild(list);
-        if (character === " ") {
-            let text = document.getElementById(" ").textContent;
+        if (character === " " ) {
+            const text = document.querySelector(" ").textContent;
         } else {
-            let text = document.getElementById('letter').textContent;
+            const text = document.querySelector('letter').textContent;
         }
         console.log(list);
     }
