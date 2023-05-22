@@ -26,6 +26,11 @@ const addPhraseToDisplay = arr => {
 
         console.log(list);
     }
+    if (character === "") {
+        result = "";
+    } else {
+        result = "list";
+    }
 }
 
 const randomPhrase =
