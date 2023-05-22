@@ -22,7 +22,7 @@ const addPhraseToDisplay = arr => {
         const character = arr[i];
 
         const list = document.createElement('li');
-        document.getElementByClass('#phrase ul').appendChild(list);
+        document.querySelector('#phrase ul').appendChild(list);
 
         console.log(list);
     }
