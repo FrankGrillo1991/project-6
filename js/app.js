@@ -20,14 +20,13 @@ getRandomPhraseAsArray(phrases);
 const addPhraseToDisplay = arr => {
     for (let i = 0; i < arr.length; i++) {
         const character = arr[i];
-
         const list = document.createElement('li');
         document.querySelector('#phrase ul').appendChild(list);
         if (character === " ") {
             let text = document.getElementById(" ").textContent;
         } else {
             let text = document.getElementById('letter').textContent;
-
+        }
         console.log(list);
     }
 }
