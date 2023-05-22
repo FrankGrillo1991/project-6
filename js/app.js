@@ -18,7 +18,9 @@ console.log(getRandomPhraseAsArray(phrases))
 getRandomPhraseAsArray(phrases);
 
 const addPhraseToDisplay = arr => {
-
+    for (let i = 0; i < Array.length; i++) {
+        
+    }
 }
 
 const checkLetter = button => {
