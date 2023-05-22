@@ -42,7 +42,7 @@ const checkWin = () => {
 
 //startButton.addEventListener('click', () => {
     
-});
+;
 
 
 qwerty.addEventListener('click', e => {
