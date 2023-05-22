@@ -21,6 +21,7 @@ const addPhraseToDisplay = arr => {
     for (let i = 0; i < arr.length; i++) {
         const character = arr[i];
         const list = document.createElement('li');
+        list.textContent = character;
         document.querySelector('#phrase ul').appendChild(list);
         if (character === " ") {
             let text = document.getElementById(" ").textContent;
