@@ -23,13 +23,12 @@ const addPhraseToDisplay = arr => {
 
         const list = document.createElement('li');
         document.querySelector('#phrase ul').appendChild(list);
+        if (character === " ") {
+            result = " ";
+        } else {
+            result = "list"
 
         console.log(list);
-    }
-    if (character === "") {
-        result = "";
-    } else {
-        result = "list";
     }
 }
 
