@@ -24,9 +24,9 @@ const addPhraseToDisplay = arr => {
         list.textContent = character;
         document.querySelector('#phrase ul').appendChild(list);
         if (character === " " ) {
-            li.classList.add(" ");
+           myEle.li.classList.add(" ");
         } else {
-            li.classList.add('letter');
+            myEle.li.classList.add('letter');
         }
         console.log(list);
     }
