@@ -26,7 +26,7 @@ const addPhraseToDisplay = arr => {
         if (character === " " ) {
            list.classList.add(" ");
         } else {
-            li.classList.add("letter");
+            list.classList.add("letter");
         }
         console.log(list);
     }
