@@ -23,10 +23,10 @@ const addPhraseToDisplay = arr => {
         const list = document.createElement('li');
         list.textContent = character;
         document.querySelector('#phrase ul').appendChild(list);
-        if (character === space ) {
-            const input = div.classList.add('space').textContent;
+        if (character === " " ) {
+            const text = div.classList.add(" ").textContent;
         } else {
-            const input = div.classList.add('letter').textContent;
+            const text = div.classList.add('letter').textContent;
         }
         console.log(list);
     }
