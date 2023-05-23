@@ -7,7 +7,7 @@ const phrase = document.getElementById('phrase');
 let missed = 0;
 
 const getRandomPhraseAsArray = arr => {
-    const random = Math.floor( Math.random() * 6 );
+    const random = Math.floor( Math.random() * 5 );
     const phrase = arr[random];
     const wordArray = phrase.split('');
     return wordArray;
