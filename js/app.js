@@ -37,7 +37,7 @@ getRandomPhraseAsArray(phrases)
 addPhraseToDisplay(randomPhrase)
 
 const checkLetter = button => {
-    const checkLetter = document.createElement("li");
+    const checkLetter = document.getElementByTagName("li");
 
 
 
