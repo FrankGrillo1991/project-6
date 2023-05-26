@@ -54,9 +54,10 @@ const checkWin = () => {
 
 }
 
-//startButton.addEventListener('click', () => {
+startButton.addEventListener('click', () => {
+    startButton.style.visibility: "hidden";
     
-;
+})
 
 
 qwerty.addEventListener('click', e => {
