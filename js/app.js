@@ -40,10 +40,7 @@ const checkLetter = button => {
     const characters = document.getElementsByTagName("li");
     const match = null;
     for (let i = 0; i < characters.length; i++) {
-        if (characters.textContent === characters[i] )
-        list.classList.add("show");
-    } else {
-        list.classList.add("null");
+        console.log(characters[i].textContent)
     }
 
 
