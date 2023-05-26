@@ -39,7 +39,7 @@ addPhraseToDisplay(randomPhrase)
 const checkLetter = button => {
     const characters = document.getElementsByTagName("li");
     const match = null;
-    for (let i = 0; i < arr.length; i++) {
+    for (let i = 0; i < characters.length; i++) {
         if (characters === "match" )
         list.classList.add("show");
     } else {
