@@ -43,7 +43,7 @@ const checkLetter = button => {
         if (characters === "match" )
         list.classList.add("show");
     } else {
-        
+        list.classList.add("null");
     }
 
 
