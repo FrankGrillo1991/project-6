@@ -55,7 +55,7 @@ const checkWin = () => {
 }
 
 startButton.addEventListener('click', () => {
-    startButton.style.visibility = "hidden";
+    startButton.document.querySelector.style.visibility = "hidden";
     
 })
 
