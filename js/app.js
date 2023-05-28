@@ -4,6 +4,8 @@ const qwerty = document.getElementById('qwerty');
 
 const phrase = document.getElementById('phrase');
 
+const overlay = document.querySelector.style.visibility = "hidden";
+
 let missed = 0;
 
 const getRandomPhraseAsArray = arr => {
@@ -55,8 +57,7 @@ const checkWin = () => {
 }
 
 startButton.addEventListener('click', () => {
-    startButton.document.querySelector.style.visibility = "hidden";
-    
+    const startButton = document.querySelector("startButton");   
 })
 
 
