@@ -47,6 +47,8 @@ const checkLetter = button => {
         if(button.textContent === characters[i].textContent)
         list.classList.add("show")
         console.log(characters[i].textContent)
+    } else {
+        return = null;
     }
 
 
