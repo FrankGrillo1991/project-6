@@ -48,7 +48,7 @@ const checkLetter = button => {
         list.classList.add("show")
         console.log(characters[i].textContent)
     } else {
-        return = null;
+        return null;
     }
 
 
