@@ -1,6 +1,6 @@
 const phrases = ['Fantasia', 'Home Alone', 'The Shining', 'Amadeus', 'Immortal Beloved']
 
-const startButton = document.getElementsByClassName('btn__reset');
+const startButton = document.querySelector('.btn__reset');
 
 const qwerty = document.getElementById('qwerty');
 
