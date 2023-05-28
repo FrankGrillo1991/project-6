@@ -1,10 +1,12 @@
 const phrases = ['Fantasia', 'Home Alone', 'The Shining', 'Amadeus', 'Immortal Beloved']
 
+const startButton = document.getElementsByClassName('btn__reset');
+
 const qwerty = document.getElementById('qwerty');
 
 const phrase = document.getElementById('phrase');
 
-const overlay = document.getElementById("overlay").style.visibility = "hidden";
+const overlay = document.getElementById("overlay")
 
 let missed = 0;
 
@@ -57,7 +59,7 @@ const checkWin = () => {
 }
 
 startButton.addEventListener('click', () => {
-    const startButton = document.querySelector("startButton");   
+    const overlay = document.getElementById("overlay").style.visibility = "hidden"; 
 })
 
 
