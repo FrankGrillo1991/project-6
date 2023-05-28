@@ -59,7 +59,7 @@ const checkWin = () => {
 }
 
 startButton.addEventListener('click', () => {
-    const overlay = overlay.style.visibility = "hidden"; 
+     overlay.style.visibility = "hidden"; 
 })
 
 
