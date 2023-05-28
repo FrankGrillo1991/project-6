@@ -65,5 +65,7 @@ startButton.addEventListener('click', () => {
 
 qwerty.addEventListener('click', e => {
     const characters = document.getElementsByTagNameId("letter");
+    if(button.textContent === chosen[i].textContent)
+    list.classList.add("")
 
 })
