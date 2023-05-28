@@ -4,7 +4,7 @@ const qwerty = document.getElementById('qwerty');
 
 const phrase = document.getElementById('phrase');
 
-const overlay = document.querySelector.style.visibility = "hidden";
+const overlay = document.getElementById("overlay").style.visibility = "hidden";
 
 let missed = 0;
 
