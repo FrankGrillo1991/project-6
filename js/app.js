@@ -40,12 +40,12 @@ const randomPhrase =
 getRandomPhraseAsArray(phrases)
 addPhraseToDisplay(randomPhrase)
 
-const checkLetter = button => {
+const checkLetter = button => {}
     const characters = document.getElementsByTagName("letter");
     let match = null;
-    match = characters[i].textContent;
     for (let i = 0; i < characters.length; i++) {
         if (button.textContent === characters[i].textContent) {
+         match = characters[i].textContent;
         characters[i].classList.add("show")
         console.log(characters[i].textContent)
     } else {
