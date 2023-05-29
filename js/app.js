@@ -43,10 +43,10 @@ addPhraseToDisplay(randomPhrase)
 const checkLetter = button => {
     const characters = document.getElementsByTagName("letter");
     let match = null;
+    match = characters[i].textContent;
     for (let i = 0; i < characters.length; i++) {
         if (button.textContent === characters[i].textContent) {
         characters[i].classList.add("show")
-         match = characters[i].textContent;
         console.log(characters[i].textContent)
     } else {
         return null;
