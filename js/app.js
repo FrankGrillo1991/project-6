@@ -45,7 +45,7 @@ const checkLetter = button => {
     let match = null;
     for (let i = 0; i < characters.length; i++) {
         if (button.textContent === characters[i].textContent) {
-        list.classList.add("show")
+        characters[i].classList.add("show")
         console.log(characters[i].textContent)
     } else {
         return null;
