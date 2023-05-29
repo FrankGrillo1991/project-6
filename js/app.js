@@ -52,6 +52,7 @@ const checkLetter = button => {
         return null;
     }
 }
+}
 
 const checkWin = () => {
 
