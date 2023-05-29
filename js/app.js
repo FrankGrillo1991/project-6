@@ -40,7 +40,7 @@ const randomPhrase =
 getRandomPhraseAsArray(phrases)
 addPhraseToDisplay(randomPhrase)
 
-const checkLetter = button => {}
+const checkLetter = button => {
     const characters = document.getElementsByTagName("letter");
     let match = null;
     for (let i = 0; i < characters.length; i++) {
@@ -51,10 +51,6 @@ const checkLetter = button => {}
     } else {
         return null;
     }
-
-
-
-
 }
 
 const checkWin = () => {
