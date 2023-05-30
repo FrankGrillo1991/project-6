@@ -49,8 +49,8 @@ const checkLetter = button => {
         characters[i].classList.add("show")
         console.log(characters[i].textContent)
     } 
-    return match;
 }
+        return match;
 }
 
 const checkWin = () => {
