@@ -63,10 +63,10 @@ startButton.addEventListener('click', () => {
 
 
 qwerty.addEventListener('click', e => {
-    const qwerty = document.querySelector('.qwerty');
+    const listContainer = document.querySelector('.listContainer');
     if (button.style.display === 'chosen') {
-        button.textContent = 'chosen';
-        listContainer.removeAttribute('tries')
+        btnToggle.textContent = 'chosen';
+        listContainer.removeAttribute('style')
         
 
         }
