@@ -63,13 +63,12 @@ startButton.addEventListener('click', () => {
 
 
 qwerty.addEventListener('click', e => {
-    for (let i = 0; i < chosen.length; i++) {
-        if (button.textContent === chosen[i].textContent) {
-            chosen[i].classList.add("chosen")
-            console.log(chosen[i].textContent)
-            checkLetter = 0;
-            removeIf("tries")
-            missed += 1;
+    const qwerty = document.querySelector('.qwerty');
+    if (button.style.display === 'chosen') {
+        button.textContent = 'chosen';
+        listContainer.removeAttribute('tries')
+        
+
         }
     }
 })
