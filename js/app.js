@@ -68,6 +68,7 @@ qwerty.addEventListener('click', e => {
             chosen[i].classList.add("chosen")
             console.log(chosen[i].textContent)
             checkLetter = 0;
+            removeIf("tries")
             missed += 1;
         }
     }
