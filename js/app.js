@@ -64,6 +64,6 @@ startButton.addEventListener('click', () => {
 for (let i = 0; i < qwerty.length; i++) {
 
 qwerty.addEventListener('click', e => {
-    button[i].textContent = chosen.textContent.classList.add("chosen")
+    button[i].textContent = chosen[i].textContent.classList.add("chosen")
 })
 }
