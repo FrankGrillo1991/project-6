@@ -63,7 +63,6 @@ startButton.addEventListener('click', () => {
 
 
 qwerty.addEventListener('click', e => {
-    if (characters === button) {
-        console.log(button)
-    }
+    const span = getElementById("button");
+    console.log(span.button)
 })
