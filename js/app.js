@@ -63,8 +63,10 @@ startButton.addEventListener('click', () => {
 
 
 qwerty.addEventListener('click', e => {
-    //Add chosen class to the button that was ScriptProcessorNode
-    //Call the checkLetter function and store the results in a variable
-    //If the checkLetter function does not find a letter, remove one of the heart images and increment the missed counter
-
+    for (let i = 0; i < chosen.length; i++) {
+        if (button.textContent === chosen[i].textContent) {
+            chosen[i].classList.add("chosen")
+            console.log(chosen[i].textContent)
+        }
+    }
 })
