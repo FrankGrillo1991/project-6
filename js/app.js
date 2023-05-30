@@ -62,8 +62,6 @@ startButton.addEventListener('click', () => {
 })
 
 
-qwerty.addEventListener('click', e => {
-    if (qwerty === "button") {
-
-    }
+qwerty.addEventListener('click', (event) => {
+    console.log(event)
 })
