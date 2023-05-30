@@ -64,7 +64,7 @@ startButton.addEventListener('click', () => {
 
 qwerty.addEventListener('click', (event) => {
     console.log(event.target)
-    if (EventTarget.tagName === "BUTTON") {
-        
+    if (event.target.tagName === "BUTTON") {
+
     }
 })
