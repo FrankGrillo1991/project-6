@@ -48,9 +48,7 @@ const checkLetter = button => {
          match = characters[i].textContent;
         characters[i].classList.add("show")
         console.log(characters[i].textContent)
-    } else {
-        return null;
-    }
+    } 
 }
 }
 
