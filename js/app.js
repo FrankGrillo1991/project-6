@@ -65,8 +65,6 @@ startButton.addEventListener('click', () => {
 qwerty.addEventListener('click', e => {
     const listContainer = document.querySelector('.listContainer');
     if (button.style.display === 'chosen') {
-        btnToggle.textContent = 'chosen';
-        listContainer.removeAttribute('style')
         
 
         }
