@@ -63,10 +63,4 @@ startButton.addEventListener('click', () => {
 
 
 qwerty.addEventListener('click', e => {
-    const listContainer = document.querySelector('.listContainer');
-    if (button.style.display === 'chosen') {
-        
-
-        }
-    }
 })
