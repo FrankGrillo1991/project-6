@@ -67,6 +67,7 @@ qwerty.addEventListener('click', e => {
         if (button.textContent === chosen[i].textContent) {
             chosen[i].classList.add("chosen")
             console.log(chosen[i].textContent)
+            checkLetter = 0;
         }
     }
 })
