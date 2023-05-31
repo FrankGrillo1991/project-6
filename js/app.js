@@ -66,6 +66,7 @@ qwerty.addEventListener('click', (event) => {
     console.log(event.target)
     if (event.target.tagName === "BUTTON") {
         event.target.classList.add("chosen")
+        const button = event.target;
         checkLetter(button)
     }
         
