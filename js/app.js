@@ -41,7 +41,7 @@ getRandomPhraseAsArray(phrases)
 addPhraseToDisplay(randomPhrase)
 
 const checkLetter = button => {
-    const characters = document.getElementsByTagName("letter");
+    const characters = document.querySelectorAll(".letter");
     let match = null;
     for (let i = 0; i < characters.length; i++) {
         if (button.textContent === characters[i].textContent) {
