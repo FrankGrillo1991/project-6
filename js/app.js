@@ -68,6 +68,9 @@ qwerty.addEventListener('click', (event) => {
         event.target.classList.add("chosen")
         let letterFound = checkLetter(event.target);
     }
+    if (letterFound === null) {
+        
+    }
         
 })
 
