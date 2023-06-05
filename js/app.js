@@ -10,6 +10,10 @@ const overlay = document.getElementById("overlay")
 
 let missed = 0;
 
+let letters = document.querySelectorAll("li");
+
+let show = document.querySelectorAll("li");
+
 let hearts = document.querySelectorAll("img");
 console.log(hearts);
 
@@ -57,6 +61,9 @@ const checkLetter = button => {
 }
 
 const checkWin = () => {
+    if (letters === show) {
+        
+    }
 
 }
 
