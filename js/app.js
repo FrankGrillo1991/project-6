@@ -70,7 +70,7 @@ qwerty.addEventListener('click', (event) => {
     }
     let letterFound = checkLetter(event.target);
     if (letterFound === null) {
-        images.getAttribute(images/lostHeart.png)   
+        getAttribute(images/lostHeart.png)   
     }
         
 })
