@@ -61,14 +61,14 @@ startButton.addEventListener('click', () => {
      overlay.style.visibility = "hidden"; 
 })
 
-let letterFound = checkLetter;
+let letterFound;
 
 qwerty.addEventListener('click', (event) => {
-    let letterFound;
     if (event.target.tagName === "BUTTON") {
         event.target.classList.add("chosen")
-        let letterFound = checkLetter(event.target);
+        letterFound = checkLetter(event.target);
     }
+    console.log(letterFound);
     if (letterFound === null) {
         
     }
