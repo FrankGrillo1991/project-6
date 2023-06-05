@@ -10,6 +10,8 @@ const overlay = document.getElementById("overlay")
 
 let missed = 0;
 
+let heart = document.querySelectorAll("img");
+
 const getRandomPhraseAsArray = arr => {
     const random = Math.floor( Math.random() * 5 );
     const phrase = arr[random];
