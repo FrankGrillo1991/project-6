@@ -68,7 +68,6 @@ qwerty.addEventListener('click', (event) => {
         event.target.classList.add("chosen")
         let letterFound = checkLetter(event.target);
     }
-    let letterFound = checkLetter(event.target);
     if (letterFound === null) {
         getAttribute(images/lostHeart.png)   
     }
