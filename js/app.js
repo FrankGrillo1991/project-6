@@ -10,7 +10,7 @@ const overlay = document.getElementById("overlay")
 
 let missed = 0;
 
-let heart = document.querySelectorAll("img");
+let hearts = document.querySelectorAll("img");
 
 const getRandomPhraseAsArray = arr => {
     const random = Math.floor( Math.random() * 5 );
@@ -72,7 +72,8 @@ qwerty.addEventListener('click', (event) => {
     }
     console.log(letterFound);
     if (letterFound === null) {
-        
+        hearts[missed].src = "../images.lostHeart.png";
+        missed++;
     }
         
 })
