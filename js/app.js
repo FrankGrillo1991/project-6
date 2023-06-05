@@ -62,7 +62,7 @@ const checkLetter = button => {
 
 const checkWin = () => {
     if (letters === show) {
-        
+        li.classList.add("win");
     }
 
 }
