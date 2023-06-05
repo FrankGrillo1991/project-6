@@ -10,9 +10,9 @@ const overlay = document.getElementById("overlay")
 
 let missed = 0;
 
-let letters = document.querySelectorAll("letters");
+let letters = document.querySelectorAll(".letters");
 
-let show = document.querySelectorAll("show");
+let show = document.querySelectorAll(".show");
 
 let hearts = document.querySelectorAll("img");
 console.log(hearts);
