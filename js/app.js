@@ -73,7 +73,7 @@ qwerty.addEventListener('click', (event) => {
     }
     console.log(letterFound);
     if (letterFound === null) {
-        hearts[missed].src = "../images.lostHeart.png";
+        hearts[missed].src = "../images/lostHeart.png";
         missed++;
     }
         
