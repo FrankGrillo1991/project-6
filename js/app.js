@@ -69,6 +69,7 @@ const checkWin = () => {
 
 startButton.addEventListener('click', () => {
      overlay.style.visibility = "hidden"; 
+     li.classList.add("win")
 })
 
 let letterFound;
