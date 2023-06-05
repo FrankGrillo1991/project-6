@@ -61,6 +61,7 @@ startButton.addEventListener('click', () => {
      overlay.style.visibility = "hidden"; 
 })
 
+let letterFound = checkLetter;
 
 qwerty.addEventListener('click', (event) => {
     console.log(event.target)
