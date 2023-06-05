@@ -11,6 +11,7 @@ const overlay = document.getElementById("overlay")
 let missed = 0;
 
 let hearts = document.querySelectorAll("img");
+console.log(hearts);
 
 const getRandomPhraseAsArray = arr => {
     const random = Math.floor( Math.random() * 5 );
