@@ -61,7 +61,7 @@ const checkLetter = button => {
 }
 
 const checkWin = () => {
-    if (letters === show) {
+    if (letters.length === show.length) {
         li.classList.add("win");
     }
 
