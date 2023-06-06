@@ -86,8 +86,8 @@ qwerty.addEventListener('click', (event) => {
     if (letterFound === null) {
         hearts[missed].src = "../images/lostHeart.png";
         missed++;
-        checkWin();
     }
+    checkWin();
         
 })
 
