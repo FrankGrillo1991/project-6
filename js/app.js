@@ -70,7 +70,7 @@ const checkWin = () => {
 startButton.addEventListener('click', () => {
      overlay.style.visibility = "hidden"; 
      overlay.classList.add("win")
-     overlay.textContent("win")
+     overlay.textContent = ("win")
      overlay.display.property.add("flex")
      overlay.display.property.add("lose")
 })
@@ -86,6 +86,7 @@ qwerty.addEventListener('click', (event) => {
     if (letterFound === null) {
         hearts[missed].src = "../images/lostHeart.png";
         missed++;
+        checkWin();
     }
         
 })
