@@ -70,7 +70,7 @@ const checkWin = () => {
 startButton.addEventListener('click', () => {
      overlay.style.visibility = "hidden"; 
      overlay.classList.add("win")
-     let text = overlay.textContent = ("win")
+     let text = overlay.textContent("win")
      overlay.display.property("flex")
      overlay.display.property("lose")
 })
