@@ -71,8 +71,8 @@ startButton.addEventListener('click', () => {
      overlay.style.visibility = "hidden"; 
      overlay.classList.add("win")
      let text = overlay.textContent = ("win")
-     overlay.display.property.add("flex")
-     overlay.display.property.add("lose")
+     overlay.display.property("flex")
+     overlay.display.property("lose")
 })
 
 let letterFound;
