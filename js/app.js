@@ -61,6 +61,8 @@ const checkLetter = button => {
 }
 
 const checkWin = () => {
+    const letters = document.querySelectorAll("li");
+    const show = document.querySelectorAll("li");
     if (letters.length === show.length) {
         letters.classList.add("win");
     }
@@ -88,8 +90,6 @@ qwerty.addEventListener('click', (event) => {
         missed++;
     }
     checkWin();
-    const show = li;
-    const letters = li;
         
 })
 
