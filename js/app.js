@@ -67,12 +67,12 @@ const checkWin = () => {
     const title = document.querySelector(".title");
     if (letters.length === show.length) {
         overlay.classList.add("win");
-        //title.textContent...
+        title.textContent = 'Congratulations, You won!';
         overlay.style.display = "flex";
     }
     if (missed >4) {
         overlay.classList.add("lose");
-        //title.textContent...
+        title.textContent = 'Sorry, you lost.'
         overlay.style.display = "flex";
     
     }
