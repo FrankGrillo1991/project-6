@@ -64,10 +64,10 @@ const checkWin = () => {
     const letters = document.querySelectorAll(".letter");
     const show = document.querySelectorAll(".show");
     if (letters.length === show.length) {
-        overlay.classList.add(".win");
+        overlay.classList.add("win");
     }
     if (missed >4) {
-        overlay.classList.add(".lose");
+        overlay.classList.add("lose");
     }
 
 }
