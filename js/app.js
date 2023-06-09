@@ -81,10 +81,6 @@ const checkWin = () => {
 
 startButton.addEventListener('click', () => {
      overlay.style.display = "none"; 
-     overlay.classList.add("win")
-     overlay.textContent = "win";
-     overlay.style.display = "flex";
-     overlay.style.display = "lose";
 })
 
 let letterFound;
