@@ -61,16 +61,18 @@ const checkLetter = button => {
 }
 
 const checkWin = () => {
+    console.log(missed)
     const letters = document.querySelectorAll(".letter");
     const show = document.querySelectorAll(".show");
+    const title = document.querySelector(".title");
     if (letters.length === show.length) {
         overlay.classList.add("win");
-        document.textContent = ".title";
+        //title.textContent...
         overlay.style.display = "flex";
     }
     if (missed >4) {
         overlay.classList.add("lose");
-        document.textContent = ".title";
+        //title.textContent...
         overlay.style.display = "flex";
     
     }
