@@ -65,9 +65,11 @@ const checkWin = () => {
     const show = document.querySelectorAll(".show");
     if (letters.length === show.length) {
         overlay.classList.add("win");
+        document.querySelector(".title")
     }
     if (missed >4) {
         overlay.classList.add("lose");
+        document.querySelector(".title")
     }
 
 }
