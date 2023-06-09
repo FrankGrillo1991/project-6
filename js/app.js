@@ -88,6 +88,8 @@ qwerty.addEventListener('click', (event) => {
         missed++;
     }
     checkWin();
+    const show = li;
+    const letters = li;
         
 })
 
