@@ -51,7 +51,7 @@ const checkLetter = button => {
     const characters = document.querySelectorAll(".letter");
     let match = null;
     for (let i = 0; i < characters.length; i++) {
-        if (button.textContent === characters[i].textContent) {
+        if (button.textContent === characters[i].textContent.toLowerCase()) {
          match = characters[i].textContent;
         characters[i].classList.add("show")
         console.log(characters[i].textContent)
