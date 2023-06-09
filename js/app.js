@@ -61,8 +61,8 @@ const checkLetter = button => {
 }
 
 const checkWin = () => {
-    const letters = document.querySelectorAll("li");
-    const show = document.querySelectorAll("li");
+    const letters = document.querySelectorAll(".li");
+    const show = document.querySelectorAll(".li");
     if (letters.length === show.length) {
         letters.classList.add("win");
     }
