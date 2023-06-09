@@ -66,6 +66,9 @@ const checkWin = () => {
     if (letters.length === show.length) {
         letters.classList.add("win");
     }
+    if (missed >4) {
+        letters.classList.add("lose");
+    }
 
 }
 
