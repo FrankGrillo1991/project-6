@@ -66,10 +66,12 @@ const checkWin = () => {
     if (letters.length === show.length) {
         overlay.classList.add("win");
         document.querySelector("h2")
+        overlay.display.property("flex")
     }
     if (missed >4) {
         overlay.classList.add("lose");
         document.querySelector("h2")
+        overlay.display.property("flex")
     }
 
 }
