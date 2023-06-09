@@ -66,12 +66,12 @@ const checkWin = () => {
     if (letters.length === show.length) {
         overlay.classList.add("win");
         document.querySelector("title")
-        overlay.style.display = flex;
+        overlay.style.display = "flex";
     }
     if (missed >4) {
         overlay.classList.add("lose");
         document.querySelector("title")
-        overlay.style.display = flex;
+        overlay.style.display = "flex";
     
     }
 
@@ -80,9 +80,9 @@ const checkWin = () => {
 startButton.addEventListener('click', () => {
      overlay.style.visibility = "hidden"; 
      overlay.classList.add("win")
-     let text = overlay.textContent("win")
-     overlay.display.property("flex")
-     overlay.display.property("lose")
+     overlay.textContent = "win";
+     overlay.display.property = "flex";
+     overlay.display.property = "lose";
 })
 
 let letterFound;
