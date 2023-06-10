@@ -89,11 +89,10 @@ qwerty.addEventListener('click', (event) => {
     if (event.target.tagName === "BUTTON") {
         event.target.classList.add("chosen")
         letterFound = checkLetter(event.target);
-    }
-    if (letterFound === null) {
+        if (letterFound === null) {
         hearts[missed].src = "../images/lostHeart.png";
         missed++;
+    } 
     checkWin();
-    }  
 })
 
