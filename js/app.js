@@ -87,8 +87,7 @@ let letterFound;
 
 qwerty.addEventListener('click', (event) => {
     if (event.target.tagName === "BUTTON") {
-        event.target.disabled
-        event.target.classList.add("chosen")
+        event.target.disabled.classList.add("chosen")
         letterFound = checkLetter(event.target);
         if (letterFound === null) {
         hearts[missed].src = "../images/lostHeart.png";
